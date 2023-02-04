@@ -1,0 +1,37 @@
+
+.text-center {
+  text-align: center;
+}
+
+// flex helpers
+
+.flex {
+  display: flex;
+
+  &.column {
+    flex-direction: column;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.align-center {
+    align-items: center;
+  }
+
+  &.space-between {
+    justify-content: space-between;
+  }
+
+}
+
+.fully{
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+}
+
