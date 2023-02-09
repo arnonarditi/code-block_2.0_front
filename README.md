@@ -1,7 +1,37 @@
-# Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Code_Block
 
-## Recommended IDE Setup
+Socket.io project.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Rules:
+
+- First one who get inside to particular code-block(room) is the mentor. Readonly-Mode.
+
+- Everyone which get inside to the room is a student and he can try and solve the code-block.Edit mode, each of the room's participants can see real-time updates.
+
+- If the mentor left some room and get some other room, is no longer a mentor in the prv room.
+
+- If student write a correct answer, all the room sockets get a succsess modal.
+
+
+
+
+
+
+
+
+
+
+## Tech Stack
+
+**Client:** Vue, Vuex, Vite.
+
+**Server:** NodeJS, MongoDB, Express.
+
+
+
+
+## Demo
+
+https://code-block2-0.onrender.com/#/
+
